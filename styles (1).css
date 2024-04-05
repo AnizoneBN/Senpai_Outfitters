@@ -484,6 +484,7 @@ body.dark-theme {
 .story__img, 
 .story__square {
   width: 250px;
+  Border-radius: 5px;
 }
 
 .story__square {
@@ -611,6 +612,7 @@ body.dark-theme {
 .testimonial__img, 
 .testimonial__square {
   width: 250px;
+  Border-radius: 5px;
 }
 
 .testimonial__square {
@@ -821,6 +823,7 @@ body.dark-theme {
   display: inline-flex;
   padding: .25rem;
   z-index: var(--z-tooltip);
+  Border-radius: 100%;
   opacity: .8;
   transition: .4s;
 }
@@ -832,6 +835,7 @@ body.dark-theme {
 .scrollup__icon {
   font-size: 1.5rem;
   color: var(--first-color);
+  
 }
 
 /* Show Scroll Up*/
@@ -1203,4 +1207,6 @@ body.dark-theme {
   .scrollup {
     right: 3rem;
   }
+  
+
 }

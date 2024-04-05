@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles (1).css">
+  <link rel="stylesheet" href="/Swipper-bundile.css">
+          <!--=============== FAVICON ===============-->
+
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="/Navbar/style.css">
+  </style>
+  <title>Senpai Outfitters</title>
+</head>
+<style>
+       /* Google Fonts - Poppins */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.input-box {
+  position: relative;
+  height: 76px;
+  max-width: 900px;
+  width: 100%;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 0px;
+  /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);*/
+}
+.input-box i,
+.input-box .button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-box i {
+  left: 20px;
+  font-size: 30px;
+  color: #707070;
+}
+.input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  padding: 0 155px 0 65px;
+  background-color: transparent;
+}
+.input-box .button {
+  right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 56px;
+  background-color: #4070f4;
+  cursor: pointer;
+  
+  
+}
+.input-box .button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .input-box {
+    height: 66px;
+    margin: 0 8px;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+</style>
+
+<body>
+        <!--==================== HEADER ====================-->
+
+        <header class="header" id="header">
+<!--
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='bx bxs-chart nav__logo-icon'></i>Senpai Outfitters
+                </a>
+                -->
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link"></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link"></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link"></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link"></a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+<!-->
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+    
+<!--
+                    <i class='bx bx-search change-theme' style=""></i>
+<!--
+
+<!--
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+-->
+                        <div class="input-box">
+      <i class="bx bx-search"></i>
+      <input type="text" placeholder="Search here..." />
+      <button class="button">Search</button>
+    </div>
+                    
+      
+                          <i class='bx bx-moon change-theme' id="theme-button" style="margin-top: 15px; margin-left: 15px; margin-bottom: 15px; font-size: 20px;"></i>
+                    <br><br>
+                </div>
+            </nav>
+        </header>
+        
+        
+        
+        
+        
+                    <!--==================== FEATURED ====================-->
+
+           <section class="featured section container" id="featured">
+
+                <h2 class="section__title">
+                    Pick Your Favorites 
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332292528.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Your Design</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/1712063286323.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Gojo T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332392126.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Sasuke T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332400946.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">DBZ T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332407590.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Zenitsu T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332409318.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Tanjiro T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332416813.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">rengoku T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332435869.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Tanjiro T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332438420.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">HxH T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332440885.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Toji T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332444723.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Gojo T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+
+
+
+
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332446688.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Demon_Slayer T-shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332448262.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Gojo T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332461300.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">One Piece T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332459057.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Spy X family T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332450575.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Nanami T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332464940.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">AOT T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+
+
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332467448.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Levi T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332471788.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Levi T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+                    
+                      <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332474634.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Itachi T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+                  
+
+
+
+
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332476704.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Goku T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+      
+      
+      
+                          <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332488512.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">ken T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+            
+            
+            
+            
+            
+                                <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="/A_Two_Side_print_pic/1712332516448.jpg" alt="" class="featured__img" style='margin-left: 20px; Border-radius: 5px;'>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Saitama T-Shirt</h3>
+                            <span class="featured__price">৳580</span>
+                        </div>
+
+                        <button class="button featured__button download-button">Download</button>
+                    </article>
+
+  
+
+<!--check________============___----->
+
+
+<a href="https://www.facebook.com/profile.php?id=100071506269130" style="text-align: center; text-transform: uppercase; font-weight: bold; color: #18f;">Check out more on our Page<br><br>(click here)</a>
+
+
+
+<br><br>
+<hr>
+                <br><br><br>
+                                      
+                          <p style="text-align: center; text-transform: uppercase; font-size: 20px;">Not For Customers </p>            
+                
+            </section>
+         
+<!-- New Product Section -->
+<section class="new-product section container" id="new-product">
+    <h2 class="section__title">Add A New Product</h2>
+    <form id="product-form">
+        <label for="product-image" style="color: black; text-align: center; margin-left: 65px; font-weight: 300; text-transform: uppercase;">Add The Product Image</label>
+        
+        <br>
+        
+        <br>
+        <hr style="color: grey;">
+        <br>
+        <input type="file" id="product-image" name="product-image">
+<br><br>
+        <label for="product-name" style="color: black; text-align: center; margin-left: 95px; font-weight: 300; text-transform: uppercase;">Product Name</label>
+        <br>
+        
+        <br>
+        <input type="text" id="product-name" name="product-name" style="width: 300px; padding: 10px; border: 1px solid #ccc; border-radius: 20px; font-size: 16px; margin-left: 8px;">
+<br><br>
+        <label for="product-price" style="color: black; text-align: center; margin-left: 95px; font-weight: 300; text-transform: uppercase;">Product Price</label>
+        <br><br>
+        <input type="text" id="product-price" name="product-price" style="width: 300px; padding: 10px; border: 1px solid #ccc; border-radius: 20px; font-size: 16px; margin-left: 8px;">
+
+        <button type="submit" class="button" style="margin-top: 30px; Border-radius: 30px;  margin-left: 80px;">Add Product</button>
+    </form>
+</section>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  const searchInput = document.querySelector('.input-box input');
+  const featuredContainer = document.querySelector('.featured__container');
+
+  searchInput.addEventListener('input', function () {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    const cards = featuredContainer.querySelectorAll('.featured__card');
+
+    cards.forEach(card => {
+      const title = card.querySelector('.featured__title').textContent.toLowerCase();
+      if (title.includes(searchTerm)) {
+        // Move the card to the top of the container
+        featuredContainer.prepend(card);
+      }
+    });
+  });
+});
+</script>
+
+<script src="/Discover/passw_lock.js"></script>
+        <script src="/swiper-bundle.min.js"></script>
+ 
+
+        
+
+   <script src="/download.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="/main.js "></script>
+</body>
+
+</html>
